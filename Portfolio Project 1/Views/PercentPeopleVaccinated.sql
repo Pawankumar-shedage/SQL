@@ -1,0 +1,7 @@
+SELECT TOP (1000) [continent]
+      ,[location]
+      ,[date]
+      ,[new_vaccinations]
+      ,[TotalPeopleVaccinatedTillDate]
+      ,[population]
+  FROM [PortfolioProject].[dbo].[PercentPeopleVaccinated]

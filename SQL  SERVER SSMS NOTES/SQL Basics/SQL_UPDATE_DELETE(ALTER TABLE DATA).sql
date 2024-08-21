@@ -1,0 +1,50 @@
+
+
+--UPDATE - DELETE DATA, [ALTER]
+
+SELECT * FROM EMPLOYEES
+ORDER BY EMP_Id
+
+UPDATE [SQL TUTORIAL].dbo.EMPLOYEES
+SET Age = NULL
+WHERE EMP_NAME = 'Ram' 
+
+
+DELETE FROM EMPLOYEES
+WHERE Emp_ID IS NULL
+
+--show tables in DB
+SELECT  name
+FROM sys.tables
+
+--INSERT INTO SELECT FROM     (COPYING DATA FROM ONE TABLE INTO ANOTHER)
+INSERT INTO EMPLOYEES (Emp_ID,Emp_name,Age,Gender)
+SELECT EmpID,EmpName,EmpAge,EmpGender FROM [SQL TUTORIAL].dbo.NEW_EMPLOYEES
+
+--DROP TABLE
+DROP TABLE [SQL TUTORIAL].dbo.NEW_EMPLOYEES
+
+select name
+from sys.tables
+
+
+
+-- ALTER    -> change  column_names and modify data types (constraints) of existing tables.
+
+--ADD COL
+ALTER TABLE EMPLOYEES
+ADD  Email varchar(255);
+
+--MODIFY
+ALTER TABLE EMPLOYEES
+ALTER COLUMN Email varchar(100)
+
+--DELETER COL
+ALTER TABLE EMPLOYEES 
+DROP COLUMN Email 
+
+--RENAME COL - SQL SERVER SYNTAX
+EXEC sp_rename 'EMPLOYEES.Emp_name','EmpName', 'COLUMN';
+
+
+select * from EMPLOYEES

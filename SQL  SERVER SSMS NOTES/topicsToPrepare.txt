@@ -1,0 +1,65 @@
+Before diving into LeetCode SQL problems, it's important to build a solid foundation in SQL. Here are the key topics you should prepare:
+
+1. **Basic Queries**:
+   - SELECT statements
+   - Filtering data using WHERE
+   - Sorting results using ORDER BY
+
+2. **Joins**:
+   - INNER JOIN
+   - LEFT JOIN (or LEFT OUTER JOIN)
+   - RIGHT JOIN (or RIGHT OUTER JOIN)
+   - FULL JOIN (or FULL OUTER JOIN)
+   - CROSS JOIN
+   - Self JOIN
+
+3. **Aggregate Functions**:
+   - COUNT, SUM, AVG, MIN, MAX
+   - GROUP BY
+   - HAVING
+
+4. **Subqueries**:
+   - Subqueries in SELECT, FROM, and WHERE clauses
+   - Correlated subqueries
+
+5. **Set Operations**:  ✔
+   - UNION, UNION ALL
+   - INTERSECT
+   - EXCEPT (or MINUS)
+
+6. **String Functions**:
+   - CONCAT, LENGTH, SUBSTRING, REPLACE
+   - UPPER, LOWER, TRIM
+
+7. **Date Functions**:  ✔
+   - GETDATE, DATEADD, DATEDIFF, DATEPART
+   - FORMAT, CONVERT
+
+8. **Conditional Statements**:
+   - CASE statements
+   - IF statements (or equivalent logic in SQL Server)
+
+9. **Data Types**:
+   - Understanding different data types in SQL Server
+   - Type conversion functions (CAST, CONVERT)
+
+10. **Indexes and Performance Tuning**:
+    - Understanding indexes and their impact on query performance
+    - Basic performance tuning techniques
+
+11. **Constraints and Keys**:
+    - Primary Key, Foreign Key
+    - Unique, NOT NULL, CHECK constraints
+
+12. **Transactions**:
+    - BEGIN TRANSACTION, COMMIT, ROLLBACK
+    - Understanding ACID properties
+
+13. **Views and Stored Procedures**:
+    - Creating and using views
+    - Writing stored procedures and functions
+
+14. **Error Handling**:
+    - TRY...CATCH blocks
+
+By covering these topics, you'll be well-prepared to tackle SQL problems on LeetCode and other coding platforms.
